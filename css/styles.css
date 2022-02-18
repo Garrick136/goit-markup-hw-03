@@ -180,6 +180,7 @@ header {
   letter-spacing: 0.02em;
   line-height: 1.14;
   font-size: 14px;
+  font-weight: 500;
 }
 
 /* hero */
@@ -235,7 +236,6 @@ header {
 .advantage {
   background-color: var(--advantage);
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .advantage p {
@@ -298,7 +298,7 @@ header {
 
 .team {
   padding-top: 94px;
-  padding-bottom: 50px
+  padding-bottom: 94px
 }
 
 .team-container {
@@ -428,7 +428,7 @@ header {
 
 /* Наши работы */
 
-.ourworks-container {
+.our-works {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -476,8 +476,6 @@ button:focus {
   letter-spacing: 0.03em;
   background-color: var(--btn-bg-color);
   border-color: rgba(0, 0, 0, 25%);
-  box-shadow:  4px 4px  #F5F4FA;
-  
 }
 
 /* flex portfolio */
@@ -498,7 +496,9 @@ button:focus {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+  
 }
+
 
 .card-content {
   padding-top: 20px;
@@ -511,6 +511,8 @@ button:focus {
   border-radius: 4px;
   overflow: hidden;
   border-bottom: 1px solid #ececec;
+  width: 370px;
+  
 }
 
 .cards-item {
