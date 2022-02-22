@@ -234,7 +234,7 @@ header {
 }
 
 .advantage {
-  background-color: var(--advantage);
+
   padding-top: 94px;
 }
 
@@ -321,16 +321,21 @@ header {
 
 .team-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+ 
   
 }
 
 .list-cards {
   display: flex;
+  margin-left: -30px;
+  
 }
 
 .list-items {
   display: flex;
+  
 }
 
 .list-cards > .list-items {
@@ -343,9 +348,13 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  
 }
 
 .card {
+  width: 270px;
+  height: 368px;
+
   box-shadow: var(--card-shadow);
   border-radius: 4px;
   overflow: hidden;
@@ -393,7 +402,7 @@ header {
   width: 270px;
   height: 80px;
   fill: var(--btn-title-color);
-  /* border-radius: 50%; */
+  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: #AFB1B8;
   cursor: pointer;
@@ -436,7 +445,7 @@ header {
 .icon-items {
   display: flex;
   
-  /* justify-content: center; */
+  justify-content: center;
  
   
 }
@@ -545,10 +554,7 @@ header {
 
 /* Наши работы */
 
-/* .ourworks-container
-{
-  width: 1170px;
-} */
+
 
 .nav-works
 {
@@ -604,7 +610,7 @@ button:focus {
   font-size: 16px;
   letter-spacing: 0.03em;
   background-color: var(--btn-bg-color);
-  border-color: rgba(0, 0, 0, 25%);
+ 
 }
 
 /* flex portfolio */
@@ -630,7 +636,7 @@ button:focus {
 
 .card-content {
   padding: 20px 24px;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid #EEEEEE;
  
 }
 
@@ -639,7 +645,7 @@ button:focus {
   box-sizing: content-box;
   border-radius: 4px;
   overflow: hidden;
-  /* width: 360px; */
+ 
   
 }
 
